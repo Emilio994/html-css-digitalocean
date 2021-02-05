@@ -17,15 +17,15 @@
         <div class="container ms_container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="Logo">
+            </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
-              <img src="img/logo.png" alt="Logo">
-            </a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,11 +50,11 @@
       <div class="jumbotron ms_jumbotron">
         <div class="ms_container container">
           <div class="row">
-            <div class="ms_col col-md-7">
+            <div class="ms_col col-md-7 col-sm-5 col-xs-12">
               <h1>The simplest cloud platform for developer & teams</h1>
               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             </div>
-            <div class="ms_col col-md-5 ms_signin">
+            <div class="ms_col col-md-5 col-sm-7 col-xs-12 ms_signin">
               <h2>Deploy your app in seconds.</h2>
               <h2><a href="#">Get started now.</a></h2>
               <form>
@@ -72,10 +72,10 @@
       <div class="partners">
         <div class="ms_container container">
           <div class="row">
-            <div class="ms_col col-md-12">
+            <div class="ms_col col-md-12 col-sm-12 col-xs-12">
                 <h4>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 hidden-xs">
               <div class="ms_partners">
                 <img src="img/docker.svg" alt="Docker">
                 <img src="img/gitlab.svg" alt="GitLab">
@@ -83,9 +83,11 @@
                 <img src="img/hashicorp.svg" alt="HashiCorp">
                 <img src="img/wework.svg" alt="wework">
                 <img src="img/splunk.svg" alt="splunk">
-              </div>              
+              </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-sm-6 visible-xs-inline-block"></div>
+            <div class="col-xs-6 visible-xs-inline-block"></div>
+            <div class="col-md-12 col-xs-12">
               <h5><a href="#">View customers stories ></a></h5>
             </div>
           </div>
@@ -100,11 +102,20 @@
       <section>
         <div class="ms_container container">
           <div class="row">
-            <div class="ms_col col-md-12">TOP 1ST SECTION</div>
+            <div class="ms_col col-md-12 col-sm-12 col-xs-12">TOP 1ST SECTION</div>
           </div>
           <div class="row">
-            <div class="ms_col col-md-4">BOTTOM LEFT 1ST SECTION</div>
-            <div class="ms_col col-md-8">BOTTOM RIGHT 1ST SECTION</div>
+            <div class="ms_col col-md-4 col-sm-4 hidden-xs">BOTTOM LEFT 1ST SECTION</div>
+            <div class="ms_col col-md-4 col-sm-4 hidden-xs">BOTTOM RIGHT 1ST SECTION</div>
+            <div class="ms_col col-md-4 col-sm-4 hidden-xs">BOTTOM RIGHT 1ST SECTION</div>
+            <div class="ms_col col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 hidden-xs">BOTTOM RIGHT 1ST SECTION</div>
+            <div class="ms_col col-md-4 col-sm-4 hidden-xs">BOTTOM RIGHT 1ST SECTION</div>
+            <!-- XS-ONLY -->
+            <div class="xs-col-12 visible-xs-inline-block"></div>
+            <div class="xs-col-12 visible-xs-inline-block"></div>
+            <div class="xs-col-12 visible-xs-inline-block"></div>
+            <div class="xs-col-12 visible-xs-inline-block"></div>
+            <div class="xs-col-12 visible-xs-inline-block"></div>
           </div>
         </div>
       </section>
@@ -113,8 +124,8 @@
       <section>
           <div class="ms_container container">
             <div class="row">
-              <div class="ms_col col-md-12">TOP 2ND SECTION</div>
-              <div class="ms_col col-md-6 col-md-offset-3"></div>
+              <div class="ms_col col-md-12 col-sm-12">TOP 2ND SECTION</div>
+              <div class="ms_col col-md-6 col-md-offset-3 ms_col col-sm-12"></div>
             </div>
           </div>
       </section>
@@ -124,9 +135,9 @@
         <div class="ms_container container">
           <div class="row">
             <div class="ms_col col-md-12">TOP 3RD SECTION</div>
-            <div class="ms_col col-md-4"></div>
-            <div class="ms_col col-md-4">BOTTOM 3RD SECTION</div>
-            <div class="ms_col col-md-4"></div>
+            <div class="ms_col col-md-4 col-sm-4"></div>
+            <div class="ms_col col-md-4 col-sm-4">BOTTOM 3RD SECTION</div>
+            <div class="ms_col col-md-4 col-sm-4"></div>
           </div>
         </div>
       </section>
@@ -135,9 +146,9 @@
       <section>
         <div class="ms_container container">
           <div class="row">
-            <div class="ms_col col-md-12">TOP 4TH SECTION</div>
-            <div class="ms_col col-md-6">BOTTOM 4TH SECTION</div>
-            <div class="ms_col col-md-6">BOTTOM 4TH SECTION</div>
+            <div class="ms_col col-md-12 col-sm-12">TOP 4TH SECTION</div>
+            <div class="ms_col col-md-6 col-sm-12">BOTTOM 4TH SECTION</div>
+            <div class="ms_col col-md-6 col-sm-12">BOTTOM 4TH SECTION</div>
           </div>
         </div>
       </section>
@@ -146,8 +157,8 @@
       <section>
         <div class="ms_container container">
           <div class="row">
-            <div class="ms_col col-md-12">TOP 5TH SECTION</div>
-            <div class="ms_col col-md-6 col-md-offset-3"></div>
+            <div class="ms_col col-md-12 col-sm-12">TOP 5TH SECTION</div>
+            <div class="ms_col col-md-6 col-md-offset-3 col-sm-12"></div>
           </div>
         </div>
       </section>
@@ -156,8 +167,8 @@
       <section>
         <div class="ms_container container">
           <div class="row">
-            <div class="ms_col col-md-12">TOP 6TH SECTION</div>
-            <div class="ms_col col-md-12">BOTTOM 6TH SECTION</div>
+            <div class="ms_col col-md-12 col-sm-12">TOP 6TH SECTION</div>
+            <div class="ms_col col-md-12 col-sm-12">BOTTOM 6TH SECTION</div>
           </div>
         </div>
       </section>
@@ -168,11 +179,11 @@
     <footer>
       <div class="ms_container container">
         <div class="row">
-          <div class="ms_col col-md-4">LOGO</div>
-          <div class="ms_col col-md-2">COL 1</div>
-          <div class="ms_col col-md-2">COL 2</div>
-          <div class="ms_col col-md-2">COL 3</div>
-          <div class="ms_col col-md-2">COL 4</div>
+          <div class="ms_col col-md-4 col-sm-12">LOGO</div>
+          <div class="ms_col col-md-2 col-sm-6">COL 1</div>
+          <div class="ms_col col-md-2 col-sm-6">COL 2</div>
+          <div class="ms_col col-md-2 col-sm-6">COL 3</div>
+          <div class="ms_col col-md-2 col-sm-6">COL 4</div>
         </div>
       </div>
     </footer>
