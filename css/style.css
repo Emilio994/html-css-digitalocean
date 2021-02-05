@@ -1,0 +1,21 @@
+/* Debug */
+.container {
+  border: 1px solid black;
+}
+.container-fluid {
+  border: 1px solid red;
+}
+.row {
+  border: 1px solid green;
+}
+[class*="col-"] {
+  border: 1px solid orange;
+  height: 300px;
+}
+
+/* COMMON */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
