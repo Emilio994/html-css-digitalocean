@@ -6,11 +6,11 @@
   border: 1px solid red;
 }
 .ms_row {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .ms_col {
   border: 1px solid orange;
-  height: 200px;
+  /* height: 200px; */
 }
 section {
   margin: 5vh 0;
@@ -23,6 +23,9 @@ section {
   margin: 0;
   box-sizing: border-box;
 }
+body {
+
+}
 
 /* UTILITIES */
 .ms_wrapper {
@@ -31,10 +34,26 @@ section {
 }
 /* HEADER */
 /* Fixed Nav */
+.ms_navbar {
+  margin: 0;
+}
+.ms_navbar .ms_container {
+}
+.ms_navbar .ms_container img {
+  max-width: 170px;
+  vertical-align: middle;
+}
+.ms_navbar .ms_container ul {
+  margin: 0;
+}
 
 /* Jumbotron */
 .ms_jumbotron {
   margin-top: 50px;
+  background-image: url(../img/digitaljumbo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 /* Partners */
 
