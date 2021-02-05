@@ -10,7 +10,7 @@
 }
 [class*="col-"] {
   border: 1px solid orange;
-  height: 300px;
+  height: 200px;
 }
 
 /* COMMON */
@@ -19,3 +19,24 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* UTILITIES */
+.ms_wrapper {
+  width:
+}
+/* HEADER */
+/* Fixed Nav */
+/* Jumbotron */
+.ms_jumbotron {
+  margin-top: 50px;
+}
+/* Partners */
+
+/* MAIN */
+/* 1St Section  */
+/* 2Nd Section  */
+/* 3Rd Section  */
+/* 4Th Section  */
+/* 5Th Section  */
+
+/* FOOTER */
