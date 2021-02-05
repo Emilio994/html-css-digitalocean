@@ -12,6 +12,10 @@
   border: 1px solid orange;
   height: 200px;
 }
+section {
+  margin: 5vh 0;
+  border: 3px solid purple;
+}
 
 /* COMMON */
 * {
@@ -22,7 +26,8 @@
 
 /* UTILITIES */
 .ms_wrapper {
-  width:
+  width: 50%;
+  margin: 0 auto;
 }
 /* HEADER */
 /* Fixed Nav */
