@@ -1,14 +1,14 @@
 /* Debug */
-.container {
+.ms_container {
   border: 1px solid black;
 }
-.container-fluid {
+.ms_container-fluid {
   border: 1px solid red;
 }
-.row {
+.ms_row {
   border: 1px solid green;
 }
-[class*="col-"] {
+.ms_col {
   border: 1px solid orange;
   height: 200px;
 }
@@ -31,6 +31,7 @@ section {
 }
 /* HEADER */
 /* Fixed Nav */
+
 /* Jumbotron */
 .ms_jumbotron {
   margin-top: 50px;
