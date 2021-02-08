@@ -1,20 +1,20 @@
 /* Debug */
 .ms_container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .ms_container-fluid {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .ms_row {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .ms_col {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   /* height: 200px; */
 }
 section {
-  /* margin: 5vh 0; */
-  border: 3px solid purple;
+  margin: 5vh 0;
+  /* border: 3px solid purple; */
 }
 
 /* COMMON */
@@ -123,9 +123,6 @@ header .ms_navbar {
 #partners {
   background-color: #F3F5F9;
 }
-.ms_partners {
-  padding: 2%;
-}
 .ms_partners h4 {
   color: #6F7B97;
   font-weight: 500;
@@ -137,7 +134,7 @@ header .ms_navbar {
 .ms_partners img {
   width: 45%;
   height: 140px;
-  margin: 0 5px;
+  margin: 0 2%;
 }
 .ms_partners h5 a {
   color: #0E72FF;
@@ -167,9 +164,6 @@ header .ms_navbar {
   .ms_jumbotron h1 {
     font-size: 34px;
   }
-  .ms_jumbotron .ms_signin {
-    padding: 2%;
-}
   /* Partners */
 
   /* MAIN */
