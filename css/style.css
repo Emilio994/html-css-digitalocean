@@ -26,6 +26,18 @@ section {
 body {
   font-family: 'Inter', sans-serif;
 }
+.circles #filled:before {
+  background-color: #0E72FF;
+}
+.circles span:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #0E72FF;
+  margin-top: 2%;
+}
 
 /* UTILITIES */
 .ms_wrapper {
@@ -190,7 +202,7 @@ header .ms_navbar {
 }
 #ms_second-section .ms_img_container {
   margin: 0 auto;
-  max-width: 90%;
+  width: 90%;
   margin-bottom: 2%;
 }
 #ms_second-section .ms_img_container i {
@@ -200,19 +212,8 @@ header .ms_navbar {
   color: #6F7B97;
 }
 #ms_second-section .ms_img_container img {
-  width: 60%;
+  width: 80%;
   margin: 0 2% 0 2%;
-}
-#ms_second-section .circles #filled:before {
-  background-color: #0E72FF;
-}
-#ms_second-section .circles span:before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 1px solid #0E72FF;
 }
 
 /* 3Rd Section  */
@@ -247,11 +248,47 @@ header .ms_navbar {
   padding-bottom: 1.5%;
   border-bottom: 1px solid white;
 }
-
 #ms_fourth_section a {
   color: #00B9CC;
 }
+
 /* 5Th Section  */
+#ms_fifth_section {
+  background-color: #F3F5F9;
+  padding: 3% 0;
+}
+#ms_fifth_section  h2 {
+  margin: 0px 0px 5% 0px;
+}
+#ms_fifth_section .ms_whole-container {
+  width: 50%;
+  margin: 0 auto;
+}
+#ms_fifth_section .ms_img_container {
+  background-color: white;
+  display: inline-block;
+  width: 80%;
+  vertical-align: middle;
+  padding: 5% 0%;
+}
+#ms_fifth_section .ms_img_container img {
+  margin-bottom: 3%
+}
+#ms_fifth_section a {
+  margin-top: 4%;
+  display: block;
+}
+#ms_fifth_section i {
+  vertical-align: middle;
+  font-size: 200%;
+  margin: 0 1.5%;
+}
+#ms_fifth_section i:first-child {
+  color: #6F7B97;
+}
+#ms_fifth_section .ms_img_container img {
+  width: 50%;
+}
 
 /* FOOTER */
 
@@ -292,6 +329,9 @@ header .ms_navbar {
   #ms_second-section .ms_section-head p {
     font-size: 18px;
   }
+  #ms_second-section .ms_img_container img {
+    width: 60%;
+  }
   /* 3Rd Section  */
   #ms_third-section img {
     height: 30px;
@@ -305,7 +345,9 @@ header .ms_navbar {
     margin-bottom: 2%;
   }
   /* 5Th Section  */
-
+  #ms_fifth_section .ms_img_container {
+    width: 60%;
+  }
   /* FOOTER */
 }
 /* MQ DESKTOP */
@@ -343,6 +385,9 @@ header .ms_navbar {
   #ms_second-section .ms_section-head p {
     font-size: 18px;
   }
+  #ms_second-section .ms_img_container img {
+    width: 60%;
+  }
   /* 3Rd Section  */
   #ms_third-section img {
     height: 30px;
@@ -356,6 +401,9 @@ header .ms_navbar {
     margin-bottom: 2%;
   }
   /* 5Th Section  */
+  #ms_fifth_section .ms_img_container {
+    width: 45%;
+  }
 
   /* FOOTER */
 }
