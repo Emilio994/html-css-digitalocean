@@ -159,6 +159,9 @@ header .ms_navbar {
 
 /* MAIN */
 /* 1St Section  */
+#ms_first-section {
+  padding: 4% 0;
+}
 #ms_first-section .section-head_text{
   margin: 3% 0;
 }
@@ -185,6 +188,7 @@ header .ms_navbar {
 #ms_first-section .ms_col-wrap {
   width: 100%;
   min-height: 120px;
+  padding: 0 2% 0 0;
 }
 /* 2Nd Section  */
 #ms_second-section {
