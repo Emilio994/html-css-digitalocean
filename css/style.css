@@ -1,6 +1,6 @@
 /* Debug */
 .ms_container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .ms_container-fluid {
   /* border: 1px solid red; */
@@ -9,7 +9,7 @@
   /* border: 1px solid green; */
 }
 .ms_col {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   /* height: 200px; */
 }
 section {
@@ -189,7 +189,6 @@ header .ms_navbar {
 #ms_second-section .ms_img_container {
   margin: 0 auto;
   max-width: 90%;
-  border: 1px solid green;
   margin-bottom: 2%;
 }
 #ms_second-section .ms_img_container i {
@@ -218,6 +217,9 @@ header .ms_navbar {
 #ms_third-section {
   padding: 4% 0;
 }
+#ms_third-section .ms_col {
+  margin: 2% 0;
+}
 #ms_third-section h2 {
   margin-bottom: 3%
 }
@@ -226,6 +228,10 @@ header .ms_navbar {
   width: 35px;
 }
 /* 4Th Section  */
+#ms_fourth_section {
+ background-image: linear-gradient(#0249C6, #001E9A);
+ color: white;
+}
 /* 5Th Section  */
 
 /* FOOTER */
