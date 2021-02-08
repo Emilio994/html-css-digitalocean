@@ -178,10 +178,10 @@ header .ms_navbar {
   line-height: 2em;
 }
 #ms_second-section .ms_section-head {
-  line-height: 5em;
+  margin-bottom: 5%;
 }
 #ms_second-section .ms_section-head h2 {
-  margin: 0px;
+  margin: 0px 0px 1.5% 0px;
 }
 #ms_second-section .ms_section-head p {
   font-size: 18px;
@@ -215,6 +215,16 @@ header .ms_navbar {
 }
 
 /* 3Rd Section  */
+#ms_third-section {
+  padding: 4% 0;
+}
+#ms_third-section h2 {
+  margin-bottom: 3%
+}
+#ms_third-section img {
+  height: 35px;
+  width: 35px;
+}
 /* 4Th Section  */
 /* 5Th Section  */
 
@@ -243,8 +253,16 @@ header .ms_navbar {
     width: 49.5%;
     height: 170px;
   }
+  #ms_first-section img {
+    height: 30px;
+    width: 30px;
+  }
   /* 2Nd Section  */
   /* 3Rd Section  */
+  #ms_third-section img {
+    height: 30px;
+    width: 30px;
+  }
   /* 4Th Section  */
   /* 5Th Section  */
 
@@ -271,8 +289,16 @@ header .ms_navbar {
     width: 49.5%;
     height: 170px;
   }
+  #ms_first-section img {
+    height: 30px;
+    width: 30px;
+  }
   /* 2Nd Section  */
   /* 3Rd Section  */
+  #ms_third-section img {
+    height: 30px;
+    width: 30px;
+  }
   /* 4Th Section  */
   /* 5Th Section  */
 
