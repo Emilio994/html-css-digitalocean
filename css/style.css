@@ -6,14 +6,14 @@
   border: 1px solid red;
 }
 .ms_row {
-  /* border: 1px solid green; */
+  border: 1px solid green;
 }
 .ms_col {
   border: 1px solid orange;
   /* height: 200px; */
 }
 section {
-  margin: 5vh 0;
+  /* margin: 5vh 0; */
   border: 3px solid purple;
 }
 
@@ -24,7 +24,7 @@ section {
   box-sizing: border-box;
 }
 body {
-
+  font-family: 'Inter', sans-serif;
 }
 
 /* UTILITIES */
@@ -44,6 +44,7 @@ header .ms_navbar {
 }
 .ms_navbar .ms_container .ms_list li a {
   color: #2D426B;
+  padding-right: 5px;
 }
 .ms_navbar .ms_container img {
   max-height: 30px;
@@ -64,11 +65,84 @@ header .ms_navbar {
   background-position: center;
   background-repeat: no-repeat;
   margin: 60px 0 0 0;
+  color: white;
+}
+.ms_jumbotron h1 {
+  font-size: 54px;
+  font-weight: 600;
+}
+.ms_jumbotron p {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 2%;
 }
 .ms_jumbotron .ms_signin {
   background-color: white;
+  border-radius: 1em;
+  padding: 0.5%;
+}
+.ms_jumbotron .ms_signin h2:first-of-type {
+  color: #2D426B;
+}
+.ms_jumbotron .ms_signin h2 a {
+  color: #0E72FF;
+}
+.ms_jumbotron .ms_signin h2{
+  font-weight: 700;
+}
+.ms_jumbotron .ms_signin form input,
+.ms_jumbotron .ms_signin button {
+  margin-bottom: 10px;
+}
+.ms_jumbotron .ms_signin input {
+  box-shadow: 0px 0px 0px 0px;
+  font-size: 16px;
+}
+.ms_jumbotron .ms_signin button:first-of-type {
+  background-color: #579AFF;
+  border: 1px solid #579AFF;
+}
+.ms_jumbotron .ms_signin button:last-of-type {
+  border: none;
+  box-shadow: 2.5px 2.5px 1px  lightgrey;
+}
+.ms_jumbotron .ms_signin button img {
+ max-height: 20px;
+}
+.ms_jumbotron .ms_signin p:not(a) {
+  text-align: center;
+  color: #2D426B;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.ms_jumbotron .ms_signin p a {
+  color: #0E72FF;
+  text-decoration: underline;
 }
 /* Partners */
+#partners {
+  background-color: #F3F5F9;
+}
+.ms_partners {
+  padding: 2%;
+}
+.ms_partners h4 {
+  color: #6F7B97;
+  font-weight: 500;
+  font-size: 15px;
+}
+.ms_partners .ms_col {
+  padding: 0px;
+}
+.ms_partners img {
+  width: 45%;
+  height: 140px;
+  margin: 0 5px;
+}
+.ms_partners h5 a {
+  color: #0E72FF;
+}
 
 /* MAIN */
 /* 1St Section  */

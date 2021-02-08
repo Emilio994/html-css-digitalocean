@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Digital Ocean</title>
   </head>
@@ -49,45 +51,49 @@
         <div class="ms_container container">
           <div class="row">
             <div class="ms_col col-md-7 col-sm-7 col-xs-12">
-              <h1>The simplest cloud platform for developer & teams</h1>
-              <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+              <h1>The simplest cloud platform for<br> developer & teams</h1>
+              <p class="small">Deploy,manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
             <div class="ms_col col-md-5 col-sm-5 col-xs-12 ms_signin">
-              <h2>Deploy your app in seconds.</h2>
-              <h2><a href="#">Get started now.</a></h2>
+              <h2 class="text-center">Deploy your app in seconds.</h2>
+              <h2 class="text-center"><a href="#">Get started now.</a></h2>
               <form>
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
               </form>
               <button type="button" class="btn btn-primary btn-md btn-block">Create your account</button>
-              <button type="button" class="btn btn-default btn-md btn-block">Sign up with google</button>
+              <button type="button" class="btn btn-default btn-md btn-block ms_google"><img class="pull-left" src="img/google-icon.png" alt="Google Icon"> Sign up with Google</button>
               <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
             </div>
           </div>
         </div>
       </div>
+
       <!-- Partners -->
-        <div class="ms_container container partners">
+      <section id="partners">
+        <div class="ms_container container ms_partners">
           <div class="row">
             <div class="ms_col col-md-12 col-sm-12 col-xs-12">
-                <h4>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
+                <h4 class="text-center">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-              <img src="" alt="Test-1">
-              <img src="" alt="Test-1">
+            <div class="col-xs-12 col-sm-4 col-md-4 ms_col">
+              <img src="img/docker.svg" alt="Docker">
+              <img src="img/gitlab.svg" alt="GitLab">
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-              <img src="" alt="Test-2">
-              <img src="" alt="Test-2">
+            <div class="col-xs-12 col-sm-4 col-md-4 ms_col">
+              <img src="img/slack.svg" alt="Slack">
+              <img src="img/hashicorp.svg" alt="HashiCorp">
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-              <img src="" alt="Test-3">
-              <img src="" alt="Test-3">
+            <div class="col-xs-12 col-sm-4 col-md-4 ms_col">
+              <img src="img/wework.svg" alt="weowrk">
+              <img src="img/splunk.svg" alt="splunk">
             </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center">
               <h5><a href="#">View customers stories ></a></h5>
             </div>
           </div>
         </div>
+      </section>
     </header>
 
 
