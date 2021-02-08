@@ -1,6 +1,6 @@
 /* Debug */
 .ms_container {
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 .ms_container-fluid {
   /* border: 1px solid red; */
@@ -9,11 +9,11 @@
   /* border: 1px solid green; */
 }
 .ms_col {
-  /* border: 1px solid orange; */
+  border: 1px solid orange;
   /* height: 200px; */
 }
 section {
-  margin: 5vh 0;
+  /* margin: 5vh 0; */
   /* border: 3px solid purple; */
 }
 
@@ -31,6 +31,24 @@ body {
 .ms_wrapper {
   width: 50%;
   margin: 0 auto;
+}
+.ms_dark_blue {
+  color: #031C4E;
+}
+.ms_light_grey {
+  color: #6F7B97;
+}
+.ms_light_blue {
+  color: #0E72FF;
+}
+.ms_light_bulk {
+  font-weight: 500;
+}
+.ms_bulk {
+  font-weight: 600;
+}
+.ms_bulker {
+  font-weight: 700;
 }
 /* HEADER */
 /* Fixed Nav */
@@ -52,11 +70,7 @@ header .ms_navbar {
 }
 .ms_navbar .ms_button {
   border-color: #3A8AFF;
-  color: #3A8AFF;
   background-color: white;
-}
-.ms_navbar .hamburger {
-  color: #3A8AFF;
 }
 /* Jumbotron */
 .ms_jumbotron {
@@ -69,7 +83,6 @@ header .ms_navbar {
 }
 .ms_jumbotron h1 {
   font-size: 34px;
-  font-weight: 600;
 }
 .ms_jumbotron p {
   font-size: 20px;
@@ -79,15 +92,7 @@ header .ms_navbar {
 .ms_jumbotron .ms_signin {
   background-color: white;
   border-radius: 0.5em;
-}
-.ms_jumbotron .ms_signin h2:first-of-type {
-  color: #2D426B;
-}
-.ms_jumbotron .ms_signin h2 a {
-  color: #0E72FF;
-}
-.ms_jumbotron .ms_signin h2{
-  font-weight: 700;
+  padding: 0.5% 2%;
 }
 .ms_jumbotron .ms_signin form input,
 .ms_jumbotron .ms_signin button {
@@ -109,14 +114,11 @@ header .ms_navbar {
  max-height: 20px;
 }
 .ms_jumbotron .ms_signin p:not(a) {
-  text-align: center;
-  color: #2D426B;
   font-size: 12px;
-  font-weight: bold;
   margin-top: 3%;
+  font-weight: bold;
 }
 .ms_jumbotron .ms_signin p a {
-  color: #0E72FF;
   text-decoration: underline;
 }
 /* Partners */
@@ -124,11 +126,11 @@ header .ms_navbar {
   background-color: #F3F5F9;
 }
 .ms_partners h4 {
-  color: #6F7B97;
-  font-weight: 500;
   font-size: 12px;
+  padding: 2.5% 0;
 }
-.ms_partners .ms_col {
+.ms_partners .ms_col,
+.ms_partners .ms_row {
   padding: 0px;
 }
 .ms_partners img {
@@ -136,12 +138,33 @@ header .ms_navbar {
   height: 140px;
   margin: 0 2%;
 }
-.ms_partners h5 a {
-  color: #0E72FF;
+.ms_partners h5 {
+  padding: 1% 0;
 }
 
 /* MAIN */
 /* 1St Section  */
+#ms_first-section ul {
+  border-left: 1px solid lightgrey;
+  display: inline-block;
+  width: 10%;
+  font-size: 15px;
+}
+#ms_first-section ul li {
+  margin: 18px 0px;
+  padding-left: 10px;
+}
+#ms_first-section ul li a {
+  color: #6F7B97;
+}
+#ms_first-section img {
+  height: 35px;
+  width: 35px;
+}
+#ms_first-section .ms_col-wrap {
+  width: 100%;
+  min-height: 120px;
+}
 /* 2Nd Section  */
 /* 3Rd Section  */
 /* 4Th Section  */
@@ -168,6 +191,10 @@ header .ms_navbar {
 
   /* MAIN */
   /* 1St Section  */
+  #ms_first-section .ms_col-wrap {
+    width: 49.5%;
+    height: 170px;
+  }
   /* 2Nd Section  */
   /* 3Rd Section  */
   /* 4Th Section  */
@@ -178,6 +205,7 @@ header .ms_navbar {
 /* MQ DESKTOP */
 @media screen and (min-width: 992px) {
   /* COMMON */
+  /* UTILITIES */
   /* HEADER */
   /* Fixed Nav */
   /* Jumbotron */
@@ -191,6 +219,10 @@ header .ms_navbar {
 
   /* MAIN */
   /* 1St Section  */
+  #ms_first-section .ms_col-wrap {
+    width: 49.5%;
+    height: 170px;
+  }
   /* 2Nd Section  */
   /* 3Rd Section  */
   /* 4Th Section  */
