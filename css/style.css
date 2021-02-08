@@ -290,6 +290,21 @@ header .ms_navbar {
   width: 50%;
 }
 
+/* 6Th Section */
+#ms_sixth_section {
+  background-image: linear-gradient(#0249C6, #001E9A);
+  color: white;
+  padding: 4% 0;
+}
+#ms_sixth_section h2 {
+  margin: 1.5% 0 2% 0;
+}
+#ms_sixth_section button {
+  width: 170px;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
 /* FOOTER */
 
 /* MQ TABLET */
@@ -348,6 +363,8 @@ header .ms_navbar {
   #ms_fifth_section .ms_img_container {
     width: 60%;
   }
+
+  /* 6Th Section */
   /* FOOTER */
 }
 /* MQ DESKTOP */
@@ -404,6 +421,6 @@ header .ms_navbar {
   #ms_fifth_section .ms_img_container {
     width: 45%;
   }
-
+  /* 6Th Section */
   /* FOOTER */
 }
