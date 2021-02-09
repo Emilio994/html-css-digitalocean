@@ -342,6 +342,111 @@ footer ul li a {
   color: #A5ACBC;
   font-weight:lighter;
 }
+/* FIXED CONTENT */
+/* Fixed Assistant */
+.fixed-assistant {
+  width: 60px;
+  height: 70px;
+  border-radius: 0.4em;
+}
+.fixed-assistant img {
+  width: 60px;
+  padding: 4px 0;
+  border-radius: 0.4em;
+  background-color: #006AFF;
+}
+
+/* Notification-Counter */
+.notification-counter {
+  position: relative;
+}
+.notification-counter .outline:before {
+  content: "";
+  width: 24.3px;
+  height: 24.5px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.notification-counter .inside:before {
+  content: "2";
+  text-align: center;
+  padding: 1.5px 1.4px;
+  color: white;
+  font-weight: 500;
+  font-size: 11px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+/* Text-baloon */
+.text-baloon {
+  position: relative;
+}
+.text-bubble {
+  width: 110px;
+  height: 65px;
+  border-radius: 0.4em;
+  border: 1px solid black;
+  font-size: 10px;
+  padding: 3.5px 10px;
+  position: absolute;
+  top: -80px;
+  right: -85px;
+  background-color: white;
+  overflow: hidden;
+  z-index: 1
+}
+.triangle::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  display: inline-block;
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: white;
+  top: -20px;
+  right: -40px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* POSITIONING */
+.fixed-group {
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+}
+.relative-group {
+  position: relative;
+}
+.absolute-assistant {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+.absolute-counter {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.absolute-baloon {
+  position: absolute;
+  top: 8px;
+  right: 85px;
+}
 
 /* MQ TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -409,6 +514,98 @@ footer ul li a {
   /* FOOTER */
   footer ul li {
     margin: 2% 0;
+  }
+  /* FIXED CONTENT */
+  /* Fixed Assistant */
+  .fixed-assistant {
+    width: 60px;
+    height: 70px;
+    border-radius: 0.4em;
+  }
+  .fixed-assistant img {
+    width: 60px;
+    padding: 4px 0;
+    border-radius: 0.4em;
+    background-color: #006AFF;
+  }
+
+  /* Notification-Counter */
+  .notification-counter {
+    position: relative;
+  }
+  .notification-counter .outline:before {
+    content: "";
+    width: 24.3px;
+    height: 24.5px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .notification-counter .inside:before {
+    content: "2";
+    text-align: center;
+    padding: 1.5px 1.4px;
+    color: white;
+    font-weight: 500;
+    font-size: 11px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+  }
+
+  /* Text-baloon */
+  .text-baloon {
+    position: relative;
+  }
+  .text-bubble {
+    width: 200px;
+    height: 55px;
+    border-radius: 0.4em;
+    border: 1px solid black;
+    font-size: 11px;
+    padding: 13px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1
+  }
+  .triangle::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid black;
+    border-bottom: 0px;
+    border-right: 1px solid black;
+    border-left: 0px;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: white;
+    top: 34px;
+    right: 1.6px;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  /* POSITIONING */
+  .fixed-group {
+    position: fixed;
+    bottom: 80px;
+    right: 5px;
+  }
+  .absolute-baloon {
+    top: 11px;
   }
 }
 /* MQ DESKTOP */
@@ -555,7 +752,9 @@ footer ul li a {
     width: 10px;
     height: 10px;
     border-right: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 0px;
+    border-right: 1px solid black;
+    border-left: 0px;
     display: inline-block;
     transform: rotate(45deg);
     position: absolute;
