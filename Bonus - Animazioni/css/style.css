@@ -354,8 +354,6 @@ footer ul li a {
   width: 60px;
   padding: 4px 0;
   border-radius: 0.4em;
-  background-color: #006AFF;
-  animation: shark-colors 6s infinite;
 }
 
 /* Notification-Counter */
@@ -424,13 +422,11 @@ footer ul li a {
   z-index: 1;
   overflow: hidden;
 }
-
 /* POSITIONING */
 .fixed-group {
   position: fixed;
   bottom: 100px;
   right: 10px;
-  animation: shark-attack 6s infinite alternate-reverse cubic-bezier(0.1, -0.7, 1.0, 0.1) 1s; 
 }
 .relative-group {
   position: relative;
@@ -451,21 +447,100 @@ footer ul li a {
   right: 85px;
 }
 
-/* SHARK ANIMATION */
-@keyframes shark-colors {
-  0%   {background-color:red;}
-  25%  {background-color:yellow;}
-  50%  {background-color:blue;}
-  75%  {background-color:green;}
-  100% {background-color:red;}
+/* ACQUARIUM */
+.acquarium img {
+  width: 75px;
+}
+#fish1, #fish2, #fish3, #fish4, #fish5{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+ #fish1 {
+   animation: fish1 10s ease-out -2s infinite alternate;
+ }
+ #fish2 {
+   animation: fish2 8s ease-in -2s infinite alternate;
+ }
+ #fish3 {
+   animation: fish3 15s ease-in-out -2s infinite reverse;
+ }
+ #fish4 {
+   animation: fish4 7s linear -2s infinite alternate;
+ }
+ #fish5 {
+   animation: fish5 25s cubic-bezier(0.1, 0.7, 0.3, 0.5) -2s infinite alternate-reverse;
+ }
+
+/* AQUARIUM ANIMATION */
+@keyframes fish1 {
+  0% {right:10%; top:20%;transform: rotate(360deg)}
+  10% {right:20%; top:50%;transform: rotate(180deg)}
+  20% {right:40%; top:80%;transform: rotate(360deg)}
+  30% {right:70%; top:60%;transform: rotate(180deg)}
+  40% {right:50%; top:35%;transform: rotate(0deg)}
+  50% {right:10%; top:75%;transform: rotate(180deg)}
+  60% {right:40%; top:55%;transform: rotate(360deg)}
+  70% {right:10%; top:40%;transform: rotate(0deg)}
+  80% {right:60%; top:15%;transform: rotate(180deg)}
+  90% {right:35%; top:55%;transform: rotate(0deg)}
+  100% {right:10%; top:20%;transform: rotate(360deg)}
 }
 
-@keyframes shark-attack {
-  0%   {right:10px; bottom:100px;}
-  25%  {right:60%; bottom:50%;}
-  50%  {right:35%; bottom:85%;}
-  75%  {right:15%; bottom: 55%;}
-  100% {right:10px; bottom:100px;}
+@keyframes fish2 {
+  0% {right:55%; top:80%;transform: rotate(180deg)}
+  10% {right:85%; top:30%;transform: rotate(70deg)}
+  20% {right:45%; top:50%;transform: rotate(210deg)}
+  30% {right:70%; top:60%;transform: rotate(360deg)}
+  40% {right:50%; top:35%;transform: rotate(220deg)}
+  50% {right:40%; top:75%;transform: rotate(150deg)}
+  60% {right:70%; top:55%;transform: rotate(10deg)}
+  70% {right:30%; top:95%;transform: rotate(60deg)}
+  80% {right:60%; top:55%;transform: rotate(140deg)}
+  90% {right:20%; top:10%;transform: rotate(200deg)}
+  100% {right:45%; top:40%;transform: rotate(310deg)}
+}
+
+@keyframes fish3 {
+  0% {right:90%; top:40%;}
+  10% {right:65%; top:25%;}
+  20% {right:45%; top:60%;}
+  30% {right:70%; top:90%;}
+  40% {right:40%; top:45%;}
+  50% {right:70%; top:75%;}
+  60% {right:100%; top:55%;}
+  70% {right:65%; top:95%;}
+  80% {right:35%; top:55%;}
+  90% {right:20%; top:10%;}
+  100% {right:45%; top:40%;}
+}
+
+@keyframes fish4 {
+  0% {right:20%; top:70%;transform: rotate(0deg);}
+  10% {right:65%; top:25%;transform: rotate(36deg);}
+  20% {right:10%; top:40%;transform: rotate(72deg);}
+  30% {right:45%; top:10%;transform: rotate(108deg);}
+  40% {right:70%; top:45%;transform: rotate(144deg);}
+  50% {right:90%; top:75%;transform: rotate(180deg);}
+  60% {right:50%; top:35%;transform: rotate(216deg);}
+  70% {right:65%; top:95%;transform: rotate(252deg);}
+  80% {right:35%; top:55%;transform: rotate(288deg);}
+  90% {right:20%; top:10%;transform: rotate(324deg);}
+  100% {right:45%; top:40%;transform: rotate(360deg);}
+}
+
+@keyframes fish5 {
+  0% {right:0%; top:30%;}
+  10% {right:65%; top:45%;transform: rotate(360deg)}
+  20% {right:30%; top:70%;transform: rotate(0deg)}
+  30% {right:45%; top:10%;transform: rotate(360deg)}
+  40% {right:70%; top:45%;transform: rotate(0deg)}
+  50% {right:90%; top:20%;transform: rotate(360deg)}
+  60% {right:50%; top:80%;transform: rotate(0deg)}
+  70% {right:65%; top:95%;transform: rotate(360deg)}
+  80% {right:35%; top:55%;transform: rotate(0deg)}
+  90% {right:20%; top:10%;transform: rotate(360deg)}
+  100% {right:45%; top:40%;transform: rotate(0deg)}
 }
 
 /* MQ TABLET */
