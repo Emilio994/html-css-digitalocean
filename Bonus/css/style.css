@@ -498,6 +498,7 @@ footer ul li a {
     border-radius: 0.4em;
     background-color: #006AFF;
   }
+
   /* Notification-Counter */
   .notification-counter {
     position: relative;
@@ -530,10 +531,49 @@ footer ul li a {
     top: 3px;
     right: 3px;
   }
+
+  /* Text-baloon */
+  .text-baloon {
+    position: relative;
+  }
+  .text-bubble {
+    width: 220px;
+    height: 60px;
+    border-radius: 0.4em;
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 13px;
+    position: absolute;
+    top: 0;
+    right: 6px;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1
+  }
+  .triangle::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: absolute;
+    background-color: white;
+    top: 34px;
+    right: 0.7px;
+    z-index: 1;
+    overflow: hidden;
+  }
+
   /* POSITIONING */
+  .fixed-group {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+  }
   .relative-group {
     position: relative;
-    border: 1px solid black;
   }
   .absolute-assistant {
     position: absolute;
@@ -544,5 +584,10 @@ footer ul li a {
     position: absolute;
     top: 0;
     right: 10px;
+  }
+  .absolute-baloon {
+    position: absolute;
+    top: 8px;
+    right: 85px;
   }
 }
